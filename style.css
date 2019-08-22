@@ -22,22 +22,25 @@ header {
   left: 0em;
   top: 0em;
   width: 20em;
+  height: 100%;
   padding-top: 1em;
   padding-left: 0.5em;
   border-right: solid;
  }
 
 #navbar ul {
-  height: 30em;
+  height: 88%;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #navbar li {
-  border: 0.05em solid;
+  border-top: 0.05em solid;
   margin-left: -3em;
   padding-left: 1.3em;
   height: 1.5em;
   padding-top: 0.4em;
+  position: relative;
 }
 
 .nav-link {
